@@ -1,0 +1,37 @@
+{
+  "name": "log.node",
+  "version": "1.0.0",
+  "description": "Logging APIs in mongodb.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/server.js",
+    "prod": "node ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/usmanniqbal/log.node.git"
+  },
+  "keywords": [
+    "log",
+    "mongo",
+    "log",
+    "logging",
+    "auditing"
+  ],
+  "author": "Usman Iqbal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/usmanniqbal/log.node/issues"
+  },
+  "homepage": "https://github.com/usmanniqbal/log.node#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "module-alias": "^2.2.2",
+    "mongoose": "^5.9.6",
+    "nodemon": "^2.0.2",
+    "swagger-ui-express": "^4.1.4"
+  },
+  "devDependencies": {}
+}
